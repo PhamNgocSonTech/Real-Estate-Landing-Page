@@ -416,7 +416,7 @@ a {
 }
 
 .stats-trend .separate {
-  height: 1px;
+  height: 1.2px;
   margin-top: 25px;
   background: #e9e9e9;
 }
@@ -489,4 +489,27 @@ a {
   font-size: 0.7rem;
   font-weight: 450;
   letter-spacing: -0.02em;
+}
+
+.stats .avatar:first-child {
+  margin-left: 0;
+}
+
+.stats .row-qty {
+  justify-content: space-between;
+  margin-top: 110px;
+  padding: 0 32px;
+}
+
+.stats .qty {
+  color: #000;
+  font-size: 6.4rem;
+  font-weight: 600;
+}
+
+.stats .qty-desc {
+  margin-top: 24px;
+  color: #7b8087;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
