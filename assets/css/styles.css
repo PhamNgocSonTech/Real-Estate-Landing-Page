@@ -563,3 +563,17 @@ a {
   bottom: 0;
   right: 221px;
 }
+
+/* ========== Footer ========== */
+
+.footer {
+  margin-top: 55px;
+}
+
+.footer .content {
+  padding: 50px 165px 58px;
+}
+
+.footer .row {
+  display: flex;
+}
