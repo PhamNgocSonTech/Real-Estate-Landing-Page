@@ -49,6 +49,15 @@ a {
   overflow: hidden;
 }
 
+/* Default Avatar */
+/* .default-avatar {
+  background-color: var(--bg-default-avt, gray);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+} */
+
 /* ========== Header ========== */
 .header {
   height: 100vh;
@@ -453,4 +462,31 @@ a {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.88; /* 187.5% */
+}
+
+.stats .avatar-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 14px;
+  margin-top: 26px;
+}
+
+.stats .avatar-group {
+  display: flex;
+}
+
+.stats .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  margin-left: -3px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: var(--bg-default-avt, gray);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 450;
+  letter-spacing: -0.02em;
 }
