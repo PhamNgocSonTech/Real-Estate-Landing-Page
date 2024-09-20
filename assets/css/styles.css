@@ -513,3 +513,53 @@ a {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+/* ========== Subcription ========== */
+.subcription {
+  margin-top: 90px;
+}
+
+.subcription .body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 370px;
+  border-radius: 20px;
+  background: #063183;
+}
+
+.subcription .info {
+  padding: 0 80px;
+  width: 671px;
+  max-width: 100%;
+}
+
+.subcription .sub-title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5; /* 150% */
+}
+
+.subcription .desc {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88; /* 187.5% */
+  opacity: 0.75;
+}
+
+.subcription .btn {
+  margin-top: 20px;
+  min-width: 151px;
+  background: #fff;
+  border-radius: 12px;
+  color: #002366;
+}
+
+.subcription .image {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
+}
