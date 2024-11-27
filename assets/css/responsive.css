@@ -100,8 +100,53 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .footer {
+  .stats .row {
+    flex-direction: column;
+  }
+
+  .stats .img-block,
+  .stats .info {
+    width: 100%;
+  }
+
+  .stats .img-block {
+    order: 2;
+    margin-top: 80px;
+  }
+
+  .stats .info {
+    order: 1;
+    padding: 0;
+  }
+
+  .stats .sub-title {
+    width: 70%;
+  }
+
+  .stats .info .desc {
+    width: 100%;
+  }
+
+  .stats .row-qty {
+    flex-direction: row;
+  }
+
+  .stats .qty {
+    font-size: 5rem;
+  }
+
+  .stats .qty-desc {
+    font-size: 1.5rem;
+  }
+
+  .subcription .image {
     display: none;
+  }
+
+  .footer .row-top {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 80px;
   }
 }
 
