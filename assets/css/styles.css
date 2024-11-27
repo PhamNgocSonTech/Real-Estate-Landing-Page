@@ -561,7 +561,7 @@ a {
 .subcription .info {
   padding: 0 80px;
   width: 671px;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .subcription .sub-title {
