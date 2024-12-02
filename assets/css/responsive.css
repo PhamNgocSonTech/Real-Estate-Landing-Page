@@ -248,3 +248,26 @@
     left: 20px;
   } */
 }
+
+@media screen and (max-width: 576px) {
+  .hero-wrap .title {
+    font-size: 4.4rem;
+  }
+
+  .hero-wrap .desc {
+    font-size: 1.7rem;
+  }
+
+  .featured .sub-title {
+    font-size: 3.2rem;
+  }
+
+  /* .content {
+    max-width: calc(100% - 20px);
+  } */
+
+  .featured .item .desc,
+  .featured .item .label {
+    font-size: 1.3rem;
+  }
+}

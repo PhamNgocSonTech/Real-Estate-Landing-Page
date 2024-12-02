@@ -22,6 +22,7 @@ body {
 /* ========== Common ========== */
 a {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .content {
